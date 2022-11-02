@@ -4,4 +4,6 @@
 
 - (instancetype)initWithCity: (NSString *)city;
 
+- (void) viewDidLoad;
+
 @end

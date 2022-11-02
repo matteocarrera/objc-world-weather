@@ -14,9 +14,17 @@
 		E7067DDE289FBA8D00C26056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7067DDD289FBA8D00C26056 /* Assets.xcassets */; };
 		E7067DE1289FBA8D00C26056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7067DDF289FBA8D00C26056 /* LaunchScreen.storyboard */; };
 		E7067DE4289FBA8D00C26056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7067DE3289FBA8D00C26056 /* main.m */; };
+		E74B0CA0290DAFF8006E0766 /* WeatherResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B0C9F290DAFF8006E0766 /* WeatherResponse.m */; };
+		E74B0CA3290DB057006E0766 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B0CA2290DB057006E0766 /* Weather.m */; };
+		E74B0CA6290DB392006E0766 /* Coordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = E74B0CA5290DB392006E0766 /* Coordinates.m */; };
 		E7998CED290408AB007458A7 /* CityWeatherViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7998CEC290408AB007458A7 /* CityWeatherViewModel.m */; };
 		E7998CF0290408FD007458A7 /* CityWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7998CEF290408FD007458A7 /* CityWeatherViewController.m */; };
 		E7998CF329040C0F007458A7 /* CityWeatherModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = E7998CF229040C0F007458A7 /* CityWeatherModuleAssembly.m */; };
+		E7E6D68C2911BCD800333AAF /* Clouds.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6D68B2911BCD800333AAF /* Clouds.m */; };
+		E7E6D68F2911BD4400333AAF /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6D68E2911BD4400333AAF /* Main.m */; };
+		E7E6D6922911BDBD00333AAF /* Snow.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6D6912911BDBD00333AAF /* Snow.m */; };
+		E7E6D6952911BDFA00333AAF /* Sys.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6D6942911BDFA00333AAF /* Sys.m */; };
+		E7E6D6982911BE4600333AAF /* Wind.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6D6972911BE4600333AAF /* Wind.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +41,28 @@
 		E7067DE0289FBA8D00C26056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7067DE2289FBA8D00C26056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7067DE3289FBA8D00C26056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E74B0C9E290DAFEF006E0766 /* WeatherResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherResponse.h; sourceTree = "<group>"; };
+		E74B0C9F290DAFF8006E0766 /* WeatherResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherResponse.m; sourceTree = "<group>"; };
+		E74B0CA1290DB04F006E0766 /* Weather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		E74B0CA2290DB057006E0766 /* Weather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		E74B0CA4290DB389006E0766 /* Coordinates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coordinates.h; sourceTree = "<group>"; };
+		E74B0CA5290DB392006E0766 /* Coordinates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coordinates.m; sourceTree = "<group>"; };
 		E7998CEB2904088D007458A7 /* CityWeatherViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityWeatherViewModel.h; sourceTree = "<group>"; };
 		E7998CEC290408AB007458A7 /* CityWeatherViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityWeatherViewModel.m; sourceTree = "<group>"; };
 		E7998CEE290408D0007458A7 /* CityWeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityWeatherViewController.h; sourceTree = "<group>"; };
 		E7998CEF290408FD007458A7 /* CityWeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityWeatherViewController.m; sourceTree = "<group>"; };
 		E7998CF129040BC4007458A7 /* CityWeatherModuleAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityWeatherModuleAssembly.h; sourceTree = "<group>"; };
 		E7998CF229040C0F007458A7 /* CityWeatherModuleAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityWeatherModuleAssembly.m; sourceTree = "<group>"; };
+		E7E6D68A2911BCCE00333AAF /* Clouds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clouds.h; sourceTree = "<group>"; };
+		E7E6D68B2911BCD800333AAF /* Clouds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clouds.m; sourceTree = "<group>"; };
+		E7E6D68D2911BD3C00333AAF /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
+		E7E6D68E2911BD4400333AAF /* Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		E7E6D6902911BDB700333AAF /* Snow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snow.h; sourceTree = "<group>"; };
+		E7E6D6912911BDBD00333AAF /* Snow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snow.m; sourceTree = "<group>"; };
+		E7E6D6932911BDF300333AAF /* Sys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sys.h; sourceTree = "<group>"; };
+		E7E6D6942911BDFA00333AAF /* Sys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sys.m; sourceTree = "<group>"; };
+		E7E6D6962911BE4100333AAF /* Wind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wind.h; sourceTree = "<group>"; };
+		E7E6D6972911BE4600333AAF /* Wind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wind.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +139,7 @@
 		E7067DD0289FBA8C00C26056 /* World Weather */ = {
 			isa = PBXGroup;
 			children = (
+				E74B0C9D290DAFD1006E0766 /* Models */,
 				E702752C28A00E5800011E7D /* Modules */,
 				E7067DD1289FBA8C00C26056 /* AppDelegate.h */,
 				E7067DD2289FBA8C00C26056 /* AppDelegate.m */,
@@ -126,6 +151,29 @@
 				E7067DE3289FBA8D00C26056 /* main.m */,
 			);
 			path = "World Weather";
+			sourceTree = "<group>";
+		};
+		E74B0C9D290DAFD1006E0766 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E74B0C9E290DAFEF006E0766 /* WeatherResponse.h */,
+				E74B0C9F290DAFF8006E0766 /* WeatherResponse.m */,
+				E74B0CA1290DB04F006E0766 /* Weather.h */,
+				E74B0CA2290DB057006E0766 /* Weather.m */,
+				E74B0CA4290DB389006E0766 /* Coordinates.h */,
+				E74B0CA5290DB392006E0766 /* Coordinates.m */,
+				E7E6D68A2911BCCE00333AAF /* Clouds.h */,
+				E7E6D68B2911BCD800333AAF /* Clouds.m */,
+				E7E6D68D2911BD3C00333AAF /* Main.h */,
+				E7E6D68E2911BD4400333AAF /* Main.m */,
+				E7E6D6902911BDB700333AAF /* Snow.h */,
+				E7E6D6912911BDBD00333AAF /* Snow.m */,
+				E7E6D6932911BDF300333AAF /* Sys.h */,
+				E7E6D6942911BDFA00333AAF /* Sys.m */,
+				E7E6D6962911BE4100333AAF /* Wind.h */,
+				E7E6D6972911BE4600333AAF /* Wind.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E7998CE729040863007458A7 /* CityWeatherModule */ = {
@@ -234,14 +282,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E6D68F2911BD4400333AAF /* Main.m in Sources */,
 				E7067DD9289FBA8C00C26056 /* WeatherListViewController.m in Sources */,
 				E7067DD3289FBA8C00C26056 /* AppDelegate.m in Sources */,
+				E7E6D6982911BE4600333AAF /* Wind.m in Sources */,
 				E7998CF0290408FD007458A7 /* CityWeatherViewController.m in Sources */,
 				E7998CED290408AB007458A7 /* CityWeatherViewModel.m in Sources */,
+				E74B0CA3290DB057006E0766 /* Weather.m in Sources */,
+				E7E6D6952911BDFA00333AAF /* Sys.m in Sources */,
+				E7E6D68C2911BCD800333AAF /* Clouds.m in Sources */,
 				E7067DE4289FBA8D00C26056 /* main.m in Sources */,
 				E7998CF329040C0F007458A7 /* CityWeatherModuleAssembly.m in Sources */,
+				E74B0CA6290DB392006E0766 /* Coordinates.m in Sources */,
+				E7E6D6922911BDBD00333AAF /* Snow.m in Sources */,
 				E7067DD6289FBA8C00C26056 /* SceneDelegate.m in Sources */,
 				E702753228A00E9600011E7D /* WeatherListViewModel.m in Sources */,
+				E74B0CA0290DAFF8006E0766 /* WeatherResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
