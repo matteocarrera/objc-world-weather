@@ -27,6 +27,8 @@
     [[self navigationItem] setTitle: _viewModel.city];
     
     [[self.navigationController navigationBar] setPrefersLargeTitles: YES];
+
+    [_viewModel viewDidLoad];
 }
 
 #pragma mark - UITableViewDataSource
